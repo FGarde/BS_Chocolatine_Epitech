@@ -1,3 +1,5 @@
+name: what_time_is_it
+
 on:
   push:
     branches: master
@@ -6,5 +8,4 @@ jobs:
   build:
     runs-on: ubuntu-lates
     steps:
-      - name: what_time_is_it
         run: date
