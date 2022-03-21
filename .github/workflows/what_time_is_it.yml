@@ -1,5 +1,3 @@
-name: what_time_is_it
-
 on:
   push:
     branches: master
