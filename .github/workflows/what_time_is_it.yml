@@ -7,5 +7,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-lates
+
     steps:
       - run: date
