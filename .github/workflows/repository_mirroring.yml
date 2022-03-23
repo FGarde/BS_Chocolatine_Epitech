@@ -5,7 +5,7 @@ on:
     branches: master
 
 jobs:
-  to_gitlab:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: action/checkout@v2
@@ -16,7 +16,7 @@ jobs:
             git@github.com:EpitechPromo2026/B-DOP-200-BDX-2-1-bschocolatine-florian.garde.git
           ssh_private_key:
             $({ secrets.SSH_KEY })
-  to_codecommit:
+  build:
    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
