@@ -31,7 +31,6 @@ jobs:
           ssh_private_key:
             ${{ secrets.SSH_KEY }}
           ssh_username:                                 # <-- (for codecommit) you need to specify ssh-key-id as ssh username.
-            ${{ secrets.SSH_ID }}
-
+            root@DESKTOP-4740T7G
 
 
